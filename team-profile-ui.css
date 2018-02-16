@@ -67,6 +67,12 @@ body{
 		border-radius: 2px;
 		width: 90vw;
 	}
+	.team-card:hover .team-card-desc{
+		visibility: visible;
+	}
+	.team-card:hover .venue-image{
+		visibility: visible;
+	}
 	
 .team-card-title{
 	padding-top: 1.5em;
@@ -76,6 +82,7 @@ body{
 	font-size: 16px;
 	height: 90%;
 	text-overflow: clip;
+	visibility: hidden;
 }
 .main-header{
 	text-align: center;
@@ -98,9 +105,10 @@ body{
 }
 
 .venue-image{
-	width: calc(32% - 100px);
+	width: 15em;
 	box-shadow: 3px 3px 20px #555;
 	border-radius: 10px;
+	visibility: hidden;
 }
 	
 #coolImage{
