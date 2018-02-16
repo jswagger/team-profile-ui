@@ -1,18 +1,15 @@
-
-
-
 body{
 	color: #000;
-    font-size: 20px;
+	font-size: 20px;
 	font-family: Calibri;
 	background-color: rgb(196, 190, 190);
-	
-    position: absolute;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    height: 100vh;
+	position: absolute;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	height: 100vh;
 }
+
 #title{
 	top: 10px;
 	left: 200px;
@@ -20,7 +17,8 @@ body{
 	font-size: 2.5em;
 	text-align: center;
 	color: #fff;
-    text-shadow: 1px 3px 8px #202020;
+	text-shadow: 1px 3px 8px #202020;
+	z-index: 10;
 }
 
 .team-link{
@@ -50,6 +48,7 @@ body{
 .team-schedule-list{
 	font-size: 1em;
 }
+
 .team-card{
 	height: 5em;
 	width: 15em;
@@ -84,19 +83,22 @@ body{
 	text-overflow: clip;
 	visibility: hidden;
 }
+
 .main-header{
 	text-align: center;
 }
 
-.main-holder{
+#main-background{
 	height: 100%;
+	position: absolute;
 	width: 60vw;
+	left: 20vw;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#4a4a4c), to(#7b7b80));
 	background-image: -webkit-linear-gradient(top, #4a4a4c, #7b7b80);
 	background-image: -moz-linear-gradient(top, #4a4a4c, #7b7b80);
 	background-image: linear-gradient(to bottom, #4a4a4c, #7b7b80);
-	margin: auto;
 }
+
 .team-logo{
 	text-align: center;
 	border-radius: 1em;
@@ -109,19 +111,4 @@ body{
 	box-shadow: 3px 3px 20px #555;
 	border-radius: 10px;
 	visibility: hidden;
-}
-	
-#coolImage{
-	width: 250px;
-	height: 200px;
-	margin: 2px;
-	
-}
-
-#pictureHolder{
-	width:100%;
-	height: 210px;
-	border: 2px #fff;
-	scroll: auto;
-	
 }
