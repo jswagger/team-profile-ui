@@ -70,18 +70,19 @@ body{
 		visibility: visible;
 	}
 	.team-card:hover .venue-image{
-		visibility: visible;
+		width:15em;
 	}
 	
 .team-card-title{
 	padding-top: 1.5em;
 }
 
-.team-card-desc{
+.team-card-desc {
 	font-size: 16px;
 	height: 90%;
 	text-overflow: clip;
 	visibility: hidden;
+	transition: .2s;
 }
 
 .main-header{
@@ -106,9 +107,9 @@ body{
 	box-shadow: 3px 3px 20px #000;
 }
 
-.venue-image{
-	width: 15em;
+.venue-image {
+	width: 0em;
 	box-shadow: 3px 3px 20px #555;
 	border-radius: 10px;
-	visibility: hidden;
+	transition: .6s;
 }
