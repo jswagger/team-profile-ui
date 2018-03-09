@@ -44,9 +44,22 @@ body{
 		cursor: pointer;
 		border-radius: 2px;
 	}
+	.team-schedule:hover .team-schedule-list{
+		visibility: visible;
+		transition: .9s;
+
+	}
+
+.team-schedule-list-current{
+	font-size: 1.3em;
+}
 
 .team-schedule-list{
 	font-size: 1em;
+	visibility: hidden;
+	transition: 0s;
+	list-style-type: none;
+	text-align: left;
 }
 
 .team-card{
